@@ -1,0 +1,12 @@
+{
+  "name": "music-import",
+  "version": "1.0.0",
+  "description": "Import songs to Apple Music using catalog API",
+  "type": "module",
+  "scripts": {
+    "search": "node catalog_search.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}
